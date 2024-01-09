@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="566.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.taxireservation.LoginForm">
+<children>
+    <VBox prefHeight="400.0" prefWidth="114.0" style="-fx-background-color: grey;" />
+    <Label layoutX="210.0" layoutY="48.0" text="Connectez Vous" textFill="GREY">
+        <font>
+            <Font name="System Bold" size="24.0" />
+        </font>
+    </Label>
+    <Label layoutX="152.0" layoutY="111.0" text="Email">
+        <font>
+            <Font name="System Bold Italic" size="18.0" />
+        </font>
+    </Label>
+    <Label layoutX="125.0" layoutY="216.0" text="MotDePasse">
+        <font>
+            <Font name="System Bold Italic" size="18.0" />
+        </font>
+    </Label>
+    <TextField fx:id="txtUserName" layoutX="177.0" layoutY="154.0" prefHeight="26.0" prefWidth="345.0" />
+    <PasswordField fx:id="txtPassword" layoutX="177.0" layoutY="266.0" prefHeight="26.0" prefWidth="345.0" promptText="saisir votre mot de passe" />
+    <Button fx:id="btnok" layoutX="452.0" layoutY="341.0" mnemonicParsing="false" onAction="#login" text="Se connecter">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+</children>
+</AnchorPane>
