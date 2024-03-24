@@ -1,6 +1,6 @@
-# Gestion taxi reservation with javafx
+# Taxi-appointment-management
 
-The JavaFX Taxi Appointment Management System is a robust and user-friendly application designed to streamline the operations of a taxi service by efficiently managing taxi drivers, clients, and appointments. The system includes a secure login page, a comprehensive dashboard, and functionalities for performing CRUD (Create, Read, Update, Delete) operations on taxi drivers, clients, and appointments.
+The  Taxi Appointment Management System is a robust and user-friendly application designed to streamline the operations of a taxi service by efficiently managing taxi drivers, clients, and appointments. The system includes a secure login page, a comprehensive dashboard, and functionalities for performing CRUD (Create, Read, Update, Delete) operations on taxi drivers, clients, and appointments.
 
 
 
